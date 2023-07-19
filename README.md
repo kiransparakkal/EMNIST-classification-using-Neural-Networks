@@ -4,7 +4,7 @@ This project aims to build a neural network model to solve the EMNIST classifica
 
 Dataset Introduction:
 
-In the project, we use the EMNIST  (Extended MNIST) dataset (https://www.kaggle.com/datasets/crawford/emnistLinks to an external site.), which is a set of handwritten character digits derived from the NIST Special Database 19 and converted to a 28x28 pixel image format and dataset structure that directly matches the MNIST dataset.
+In the project, we use the EMNIST  (Extended MNIST) dataset (https://www.kaggle.com/datasets/crawford/emnist), which is a set of handwritten character digits derived from the NIST Special Database 19 and converted to a 28x28 pixel image format and dataset structure that directly matches the MNIST dataset.
 
 Due to the EMNIST dataset including 6 different splits, we selected the “Balanced” dataset, which addressed the balance issues in the “ByClass” and “ByMerge” datasets. It is derived from the “ByMerge” dataset to reduce misclassification errors due to capital and lower-case letters and also has an equal number of samples per class. The “Balanced” dataset information is as follows:
 
